@@ -28,8 +28,8 @@
  * section in the Google JavaScript Client Library.
  * https://code.google.com/p/google-api-javascript-client/wiki/Authentication
  */
-var clientId = '821751250764.apps.googleusercontent.com';
-var apiKey = 'AIzaSyAPusS7gzp0bTla1ogGW_hJOwamaBwVT5Q';
+var clientId = '558039580665-5qb9tm8rcc4kde4t5ebs1qnci0acgqbp.apps.googleusercontent.com';
+var apiKey = 'AIzaSyCvjbQ5q52jg3FjJj1t7Qs4mlso7D5GoUk';
 var scopes = 'https://www.googleapis.com/auth/analytics.readonly';
 
 

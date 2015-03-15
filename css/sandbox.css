@@ -24,3 +24,16 @@
 #map.large{
   height:500px;
 }
+
+#calendar{
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  -moz-box-shadow: 0px 5px 20px #ccc;
+  -webkit-box-shadow: 0px 5px 20px #ccc;
+  box-shadow: 0px 5px 20px #ccc;
+}
+#calendar.large{
+  height:400px;
+}

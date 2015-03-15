@@ -13,8 +13,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<meta name="alexaVerifyID" content="bHwdagmuSYgimw__COfXiweyCa4"/>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="css/clndr.css" rel="stylesheet" type="text/css" media="all"/>
-    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
-    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
 				<script src="http://jwpsrv.com/library/RZm1BH7VEeSI+w6sC0aurw.js"></script>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
@@ -28,12 +26,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							        			<ul>
 							        				<li class="profile active"><a href="#">Profile </a></li>
 							        				<li> | </li>
-							        				<li class="logout"><a id="authorize-button" style="visibility: hidden" href="#"> Connect G+</a></li>
+							        				<li class="logout"><a id="authorize-button" style="visibility: hidden">Connect G+</a></li>
 							        				<div class="clear"></div>		
 							        			</ul>
 							        		</div>			                            
 				               <div class="profile_img">	
-				             	   <a href="" id="content"></a>
+				             	   <div id="content"></div>
 				                </div>		
 				             <div class="clear"></div>		  	
 					    </div>	
@@ -320,25 +318,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    <div class="copy-right">
 				<p>© 2015 <a href="" target="_blank">Mobishare</a>  • Yoke </p>
 	 	 </div> 
-		   <!-- G+ -->
-		<script type="text/javascript">
+
+    <!--Add a button for the user to click to initiate auth sequence -->
+    <script type="text/javascript">
       // Enter a client ID for a web application from the Google Developer Console.
       // The provided clientId will only work if the sample is run directly from
       // https://google-api-javascript-client.googlecode.com/hg/samples/authSample.html
       // In your Developer Console project, add a JavaScript origin that corresponds to the domain
       // where you will be running the script.
-      var clientId = '558039580665-5qb9tm8rcc4kde4t5ebs1qnci0acgqbp.apps.googleusercontent.com';
+      var clientId = '837050751313';
 
       // Enter the API key from the Google Develoepr Console - to handle any unauthenticated
       // requests in the code.
       // The provided key works for this sample only when run from
       // https://google-api-javascript-client.googlecode.com/hg/samples/authSample.html
       // To use in your own application, replace this API key with your own.
-      var apiKey = 'AIzaSyCvjbQ5q52jg3FjJj1t7Qs4mlso7D5GoUk';
+      var apiKey = 'AIzaSyAdjHPT5Pb7Nu56WJ_nlrMGOAgUAtKjiPM';
 
       // To enter one or more authentication scopes, refer to the documentation for the API.
       var scopes = 'https://www.googleapis.com/auth/plus.me';
-	 // var scopes = 'https://www.googleapis.com/auth/calendar';
+
       // Use a button to handle authentication the first time.
       function handleClientLoad() {
         gapi.client.setApiKey(apiKey);
@@ -377,14 +376,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             var image = document.createElement('img');
             image.src = resp.image.url;
             heading.appendChild(image);
-            // heading.appendChild(document.createTextNode(resp.displayName));
+            heading.appendChild(document.createTextNode(resp.displayName));
 
             document.getElementById('content').appendChild(heading);
           });
         });
       }
     </script>
-
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
 </body>
 </html>
 

@@ -308,7 +308,7 @@ $.getJSON(url, function(tracks) {
 				 <div class="column_right_grid sign-in">
 				 	<div class="sign_in">
 				       <h3>Sign in to your account</h3>
-					    <form name="loginform" id="loginform" action="" method="post">
+					    <form name="loginform" id="loginform">
 					    	<span>
 					 	    <i><img src="images/mail.png" alt="" /></i><input type="text" id="user_login" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
 					 	    </span>
@@ -316,8 +316,7 @@ $.getJSON(url, function(tracks) {
 					 	     <i><img src="images/lock.png" alt="" /></i>
 					 	     <input type="password" id="user_pass" placeholder="password">
 					 	    </span>
-					 		<input type="submit" id="wp-submit" class="my-button"  value="Sign In">
-							<input type="hidden" name="redirect_to" value="http://mobi.cloudns.pro/wp-login.php?redirect_to=http%3A%2F%2Fmobi.cloudns.pro%2Fwp-admin%2F&reauth=1" />
+					 		<input type="submit" id="wp-submit" class="my-button" href="http://mobi.cloudns.pro/wp-login.php?redirect_to=http%3A%2F%2Fmobi.cloudns.pro%2Fwp-admin%2F&reauth=1" value="Sign In">
 							<input type="hidden" name="testcookie" value="1" />
 					 	</form>
 					       <h4><a href="http://mobi.cloudns.pro/wp-login.php?action=lostpassword" id="rememberme">Forget Password?</a></h4>				   

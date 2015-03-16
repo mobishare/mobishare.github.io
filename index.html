@@ -270,8 +270,19 @@ $.getJSON(url, function(tracks) {
 				    		</ul>
 		          </div>	           
 		       
-    	    </div>
-    	    
+    	    </div>    	    
+                 <div class="facebook">
+				   <h3>Facebook FEED</h3>					    
+				   <script>
+					var sandboxedFrame = document.getElementById('facebookfeed');
+					</script>
+				<iframe sandbox='allow-scripts'
+						id='facebookfeed'
+						class='facebookfeed'
+						itemprop="url"  
+						src='facebook-feed.html'>
+				</iframe>
+						</div>
             <div class="column_right">
             	<div class="column_right_grid">
                  <div class="newsletter">

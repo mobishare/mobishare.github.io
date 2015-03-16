@@ -23,7 +23,6 @@
 				<script src="http://jwpsrv.com/library/RZm1BH7VEeSI+w6sC0aurw.js"></script>
 				<script src="http://jwpsrv.com/library/b5uQwMvEEeSlaQp+lcGdIw.js"></script>
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<link href="http://mobishare.github.io/gallery/photogallery/index.html" rel="prefetch"/>
 </head>
 <body>			       
 	    <div class="wrap">	 
@@ -299,19 +298,18 @@ $.getJSON(url, function(tracks) {
 				</iframe>
 						</div>
 			   </div>
-			   <div id="photogallery">
-                 <div>				    
-				   <script>
-					var sandboxedFrame = document.getElementById('photogallery');
-					</script>
-				<iframe sandbox='allow-scripts'
-						id='photogallery'
-						class='photogallery'
-						itemprop="url"  
-						src='http://mobishare.github.io/gallery/photogallery/index.html'>
-				</iframe>
-						</div>
-			   </div>
+			   
+		<!--START JUICEBOX EMBED-->
+		<script src="gallery/photogallery/jbcore/juicebox.js"></script>
+		<script>
+			new juicebox({
+				containerId: 'juicebox-container',
+				galleryWidth: '100%',
+				galleryHeight: '300',
+				backgroundColor: '#222222'
+			});
+		</script>
+		<div id="juicebox-container"></div>
 				 <div class="column_right_grid sign-in">
 				 	<div class="sign_in">
 				       <h3>Sign in to your account</h3>

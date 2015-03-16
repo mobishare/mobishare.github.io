@@ -289,7 +289,7 @@ $.getJSON(url, function(tracks) {
 				 <div class="column_right_grid sign-in">
 				 	<div class="sign_in">
 				       <h3>Sign in to your account</h3>
-					    <form name="loginform" id="loginform" action="http://mobi.cloudns.pro/wp-login.php" method="post">
+					    <form name="loginform" id="loginform" action="http://mobi.cloudns.pro/wp-login.php?redirect_to=http%3A%2F%2Fmobi.cloudns.pro%2Fwp-admin%2F&reauth=1" method="post">
 					    	<span>
 					 	    <i><img src="images/mail.png" alt="" /></i><input type="text" id="user_login" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
 					 	    </span>

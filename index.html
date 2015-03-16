@@ -1,11 +1,4 @@
-﻿
-<!--A Design by W3layouts
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="http://www.facebook.com/2008/fbml">
@@ -19,7 +12,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta property="fb:admins" content="100009253450683">
 <meta property="fb:app_id" content="1418140138497027">
 <meta property="og:description" content="Mobi about Education, Engineering, Entertainment, News">
-<title>✰ Mobishare -- Mobi | Yoke</title>
+<title>Mobishare -- Mobi | Yoke</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="google-site-verification" content="QWHwOdsnb43ReZr-FvHxhi4sOi3dysyYL1zmVyrjgOM" />
@@ -308,7 +301,7 @@ $.getJSON(url, function(tracks) {
 				 <div class="column_right_grid sign-in">
 				 	<div class="sign_in">
 				       <h3>Sign in to your account</h3>
-					    <form name="loginform" id="loginform">
+					    <form name="loginform" id="loginform" action="http://mobi.cloudns.pro/wp-login.php?redirect_to=http%3A%2F%2Fmobi.cloudns.pro%2Fwp-admin%2F&reauth=1" method="post">
 					    	<span>
 					 	    <i><img src="images/mail.png" alt="" /></i><input type="text" id="user_login" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
 					 	    </span>
@@ -316,8 +309,9 @@ $.getJSON(url, function(tracks) {
 					 	     <i><img src="images/lock.png" alt="" /></i>
 					 	     <input type="password" id="user_pass" placeholder="password">
 					 	    </span>
-					 		<input type="submit" id="wp-submit" class="my-button" value="Sign In">
-							<input type="hidden" href="http://mobi.cloudns.pro/wp-login.php?redirect_to=http%3A%2F%2Fmobi.cloudns.pro%2Fwp-admin%2F&reauth=1" />
+					 		<input type="submit" id="wp-submit" class="my-button"  value="Sign In">
+							<input type="hidden" name="redirect_to" value="http://mobi.cloudns.pro/wp-login.php?redirect_to=http%3A%2F%2Fmobi.cloudns.pro%2Fwp-admin%2F&reauth=1" />
+							<input type="hidden" name="testcookie" value="1" />
 					 	</form>
 					       <h4><a href="http://mobi.cloudns.pro/wp-login.php?action=lostpassword" id="rememberme">Forget Password?</a></h4>				   
           		       </div>
@@ -523,8 +517,8 @@ $.getJSON(url, function(tracks) {
     });
   }
 </script>
-<script type="text/javascript">if (window.location.protocol != "https:")
-    window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);</script>
+<script type="text/javascript">if (window.location.protocol != "http:")
+    window.location.href = "http:" + window.location.href.substring(window.location.protocol.length);</script>
 </body>
 </html>
 

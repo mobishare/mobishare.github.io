@@ -213,7 +213,11 @@
 				      </div>
 		          </div>	
 			  
-				<iframe id='soundcloud'
+				   <script>
+					var sandboxedFrame = document.getElementById('soundcloud');
+					</script>
+				<iframe sandbox='allow-scripts'
+						id='soundcloud'
 						class='soundcloud'
 						itemprop="url"  
 						src='soundcloud.html'>

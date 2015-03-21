@@ -15,6 +15,7 @@
 	thumbURL="thumbs/2015-03-09 13.00.17.jpg"
 	linkURL="images/avocado.jpg"
 	linkTarget="_blank"
+	sourcePath="http://mobishare.github.io/images/2015-03-09 13.00.17.jpg">
     <title><![CDATA[Avocado]]></title>
     <caption><![CDATA[Avocado Tree]]></caption>
   </image>
@@ -22,6 +23,7 @@
 	thumbURL="thumbs/tumblr_ndo142l92h1sxbss6o1_500.jpg"
 	linkURL="taylorswift.jpg"
 	linkTarget="_blank"
+	sourcePath="http://mobishare.github.io/images/tumblr_ndo142l92h1sxbss6o1_500.jpg">
     <title><![CDATA[Taylorswift]]></title>
     <caption><![CDATA[Taylor Swift]]></caption>
   </image>
@@ -29,6 +31,7 @@
 	thumbURL="thumbs/profile_img150x150.jpg"
 	linkURL="images/yoke.jpg"
 	linkTarget="_blank"
+	sourcePath="http://mobishare.github.io/images/profile_img150x150.jpg">
     <title><![CDATA[Yoke]]></title>
     <caption><![CDATA[Yoke]]></caption>
   </image>

@@ -22,7 +22,7 @@ images/upload.png
 images/arrow-left.png
 http://new.livestream.com/accounts/12550856/events/3875321/player?width=560&height=315&autoPlay=false&mute=false
 http://free.timeanddate.com/clock/i3ghgq6o/n1506/fn6/fs16/fc9ff/tc009/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4
-http://disqus.com/embed.js
+https://disqus.com/embed.js
 
 NETWORK:
 127.0.0.1:80
@@ -45,3 +45,5 @@ new.livestream.com:80
 new.livestream.com:443
 *.disqus.com:80
 *.disqus.com:443
+disqus.com:443
+disqus.com:80

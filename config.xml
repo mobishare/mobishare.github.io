@@ -13,7 +13,7 @@
 >
   <image imageURL="images/2015-03-09 13.00.17.jpg"
 	thumbURL="thumbs/2015-03-09 13.00.17.jpg"
-	linkURL="images/avocado.jpg"
+	linkURL="http://mobishare.github.io/images/2015-03-09 13.00.17.jpg"
 	linkTarget="_blank"
 	sourcePath="http://mobishare.github.io/images/2015-03-09 13.00.17.jpg">
     <title><![CDATA[Avocado]]></title>
@@ -21,7 +21,7 @@
   </image>
   <image imageURL="images/tumblr_ndo142l92h1sxbss6o1_500.jpg"
 	thumbURL="thumbs/tumblr_ndo142l92h1sxbss6o1_500.jpg"
-	linkURL="taylorswift.jpg"
+	linkURL="http://mobishare.github.io/images/tumblr_ndo142l92h1sxbss6o1_500.jpg"
 	linkTarget="_blank"
 	sourcePath="http://mobishare.github.io/images/tumblr_ndo142l92h1sxbss6o1_500.jpg">
     <title><![CDATA[Taylorswift]]></title>
@@ -29,7 +29,7 @@
   </image>
   <image imageURL="images/profile_img150x150.jpg"
 	thumbURL="thumbs/profile_img150x150.jpg"
-	linkURL="images/yoke.jpg"
+	linkURL="http://mobishare.github.io/images/profile_img150x150.jpg"
 	linkTarget="_blank"
 	sourcePath="http://mobishare.github.io/images/profile_img150x150.jpg">
     <title><![CDATA[Yoke]]></title>

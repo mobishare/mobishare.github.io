@@ -1,7 +1,7 @@
 
 #streetview{
   display: block;
-  width: 95%;
+  width: 90%;
   height: 270px;
   margin: 0 auto;
   -moz-box-shadow: 0px 5px 20px #ccc;
@@ -14,7 +14,7 @@
 
 #map{
   display: block;
-  width: 100%;
+  width: 90%;
   height: 270px;
   margin: 0 auto;
   -moz-box-shadow: 0px 5px 20px #ccc;
@@ -27,7 +27,7 @@
 
 #newsletter{
   display: block;
-  width: 100%;
+  width: 90%;
   height: 200px;
   margin: 0 auto;
   -moz-box-shadow: 0px 5px 20px #ccc;

@@ -218,9 +218,7 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
     <ul class="nav">
       <li><a href="https://mobishare.github.io/">Refresh Page</a></li>
       <li><a href="https://twitter.com/yokeofphoebe" target="_blank">Twitter</a></li>
-      <li class="logout"><a id="authorize-button" style="visibility: hidden">Connect G+</a></li>
     </ul>
-	<div id="status"></div>
 	<ul class="event_dates">
       <iframe src="https://freesecure.timeanddate.com/clock/i4liu2y6/n554/fs12/fcfff/tct/pct/tt0/tw1/tm3/td2/th2/ta1" frameborder="0" width="100%" height="30" allowTransparency="true"></iframe>					           
 						        </ul>
@@ -325,70 +323,7 @@ ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it ne
     <p>© 2015 <a href="">Mobishare</a>,    Mobi is about News, Education, Engineering, Entertainment </p>
     <p><a href="https://github.com/mobishare/mobishare.github.io/blob/master/rss/MobiRSSFeed.air?raw=true" target="_blank" style="color:#CCCCCC;">RSS Feed For Desktop (Available For Download)</a></p>
     <!-- end .footer --></div>
-  <!-- end .container --></div>
-      <script type="text/javascript">
-      // Enter a client ID for a web application from the Google Developer Console.
-      // The provided clientId will only work if the sample is run directly from
-      // https://google-api-javascript-client.googlecode.com/hg/samples/authSample.html
-      // In your Developer Console project, add a JavaScript origin that corresponds to the domain
-      // where you will be running the script.
-      var clientId = '558039580665-5qb9tm8rcc4kde4t5ebs1qnci0acgqbp.apps.googleusercontent.com';
-
-      // Enter the API key from the Google Develoepr Console - to handle any unauthenticated
-      // requests in the code.
-      // The provided key works for this sample only when run from
-      // https://google-api-javascript-client.googlecode.com/hg/samples/authSample.html
-      // To use in your own application, replace this API key with your own.
-      var apiKey = 'AIzaSyCvjbQ5q52jg3FjJj1t7Qs4mlso7D5GoUk';
-
-      // To enter one or more authentication scopes, refer to the documentation for the API.
-      var scopes = 'https://www.googleapis.com/auth/plus.me';
-
-      // Use a button to handle authentication the first time.
-      function handleClientLoad() {
-        gapi.client.setApiKey(apiKey);
-        window.setTimeout(checkAuth,1);
-      }
-
-      function checkAuth() {
-        gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: true}, handleAuthResult);
-      }
-
-
-      function handleAuthResult(authResult) {
-        var authorizeButton = document.getElementById('authorize-button');
-        if (authResult && !authResult.error) {
-          authorizeButton.style.visibility = 'hidden';
-          makeApiCall();
-        } else {
-          authorizeButton.style.visibility = '';
-          authorizeButton.onclick = handleAuthClick;
-        }
-      }
-
-      function handleAuthClick(event) {
-        gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: false}, handleAuthResult);
-        return false;
-      }
-
-      // Load the API and make an API call.  Display the results on the screen.
-      function makeApiCall() {
-        gapi.client.load('plus', 'v1', function() {
-          var request = gapi.client.plus.people.get({
-            'userId': 'me'
-          });
-          request.execute(function(resp) {
-            var heading = document.createElement('h4');
-            var image = document.createElement('img');
-            image.src = resp.image.url;
-            heading.appendChild(image);
-            heading.appendChild(document.createTextNode(resp.displayName));
-
-            document.getElementById('content').appendChild(heading);
-          });
-        });
-      }
-    </script>
+  <!-- end .container --></div>    
     <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
 
 

@@ -9,13 +9,14 @@
 	useThumbDots="false"
 	useFullscreenExpand="false"
 	showExpandButton="true"
+	indexPageName="gallery.html"
 
 >
   <image imageURL="images/2015-03-09 13.00.17.jpg"
 	thumbURL="thumbs/2015-03-09 13.00.17.jpg"
 	linkURL="http://mobishare.github.io/images/2015-03-09 13.00.17.jpg"
 	linkTarget="_blank"
-	sourcePath="http://mobishare.github.io/images/2015-03-09 13.00.17.jpg">
+	sourcePath="G:\Users\isa\Documents\GitHub\mobishare.github.io\images\2015-03-09 13.00.17.jpg">
     <title><![CDATA[Avocado]]></title>
     <caption><![CDATA[Avocado Tree]]></caption>
   </image>
@@ -23,7 +24,7 @@
 	thumbURL="thumbs/tumblr_ndo142l92h1sxbss6o1_500.jpg"
 	linkURL="http://mobishare.github.io/images/tumblr_ndo142l92h1sxbss6o1_500.jpg"
 	linkTarget="_blank"
-	sourcePath="http://mobishare.github.io/images/tumblr_ndo142l92h1sxbss6o1_500.jpg">
+	sourcePath="G:\Users\isa\Documents\GitHub\mobishare.github.io\images\tumblr_ndo142l92h1sxbss6o1_500.jpg">
     <title><![CDATA[Taylorswift]]></title>
     <caption><![CDATA[Taylor Swift]]></caption>
   </image>
@@ -31,7 +32,15 @@
 	thumbURL="thumbs/profile_img150x150.jpg"
 	linkURL="http://mobishare.github.io/images/profile_img150x150.jpg"
 	linkTarget="_blank"
-	sourcePath="http://mobishare.github.io/images/profile_img150x150.jpg">
+	sourcePath="G:\Users\isa\Documents\GitHub\mobishare.github.io\images\profile_img150x150.jpg">
+    <title><![CDATA[Yoke]]></title>
+    <caption><![CDATA[Yoke]]></caption>
+  </image>
+  <image imageURL="images/WIN_20150510_160647.jpg"
+	thumbURL="thumbs/WIN_20150510_160647.jpg"
+	linkURL="http://mobishare.github.io/images/WIN_20150510_160647.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\isa\Pictures\Camera Roll\WIN_20150510_160647.JPG">
     <title><![CDATA[Yoke]]></title>
     <caption><![CDATA[Yoke]]></caption>
   </image>
